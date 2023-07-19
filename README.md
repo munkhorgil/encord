@@ -1,11 +1,21 @@
-Encord Front-End Challenge
+Encord - Front-End Challenge
 
 ## Getting Started
 
-First, run the development server:
+Config env variables
 
 ```bash
 cp .env.example .env
+```
+
+Run front-end server
+
+```bash
 yarn dev
+```
+
+Run fake json-server:
+
+```bash
 json-server --watch db.json --port 5000 --no-cors
 ```
