@@ -26,17 +26,17 @@ const DynamicSVG = ({ item }: { item: any }) => {
       viewBox={`100 150 ${window.innerWidth} ${window.innerHeight}`}
     >
       <rect
-        x={bbox.x1}
-        y={bbox.y1}
+        x={bbox.x1 + 40}
+        y={bbox.y1 - 10}
         width={width}
         height={height}
         fill="#1b1386"
-        opacity={0.2}
+        fill-opacity={0.15}
         stroke="black"
       />
       <text
         x={bbox.x2 - 10}
-        y={bbox.y2 - 20}
+        y={bbox.y2 - 30}
         fill="#1b1386"
         dominantBaseline="baseline"
         textAnchor="end"

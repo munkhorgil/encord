@@ -68,7 +68,7 @@ const HomeContainer: React.FC = () => {
       setForm({ title: "", description: "" });
       setOpen(false);
 
-      toast.success("Successfully submitted");
+      toast.success("Successfully addedd to Predictions");
     } catch (error) {
       toast.error("Something went wrong");
     }
